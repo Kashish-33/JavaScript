@@ -27,6 +27,38 @@ console.log(typeof stringIsLoggedIn);
 console.log(Number(stringIsLoggedIn));
 
 
+//************************ Operations *********************/
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+let str1  = "hello"
+let str2 = " Hitesh"
+
+console.log(str1+str2);
+
+console.log("1"+ 2);
+console.log(1+"2");
+
+console.log("1"+"2");
+
+console.log("1"+2+2);// 122   string phle to sbhi string me covert
+console.log(1+2+"3"); // 33   string last me h to phle jo opr h wo hojyega phir string 
+
+console.log(+true); // 1
+console.log(+""); // 0
+
+let count = 4
+console.log(++count) // increments &returns value after increment
+
+let count2 = 8
+console.log(count2++); // ncrement but returns value before increment
+
+
+
+
+
 
 
 
