@@ -29,3 +29,28 @@ console.log(typeof myobj)
 console.log(typeof heroes)
 
 // ll non primitives are object type function is also object type
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive),  Heap(Non Primitive)
+
+let myytname = "hitesh"
+
+let anothername = myytname
+anothername = "chai"
+
+console.log(myytname)
+console.log(anothername);
+
+let user1 = {
+    email: "123@gmail.com",
+    upi: "23@ybl"
+}
+
+let user2 = user1
+
+user2.email = "hitesg@"
+
+console.log(user1.email);
+console.log(user2.email);
+
